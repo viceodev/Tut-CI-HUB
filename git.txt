@@ -1,0 +1,2 @@
+1. Initialize git locally with the command  `git init`
+2. To add your files to your local git repository. YOu use the git command `git add <filename>` or `git add .` to add all files.

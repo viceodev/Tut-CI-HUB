@@ -1,0 +1,40 @@
+@import url('_utilities.css');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.hero-container{
+    background-color: #f6f7fb;
+    padding: 10px;
+}
+
+.hero-header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+
+
+.hero-dropdown{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 80px;
+}
+
+.hero-header-information-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-header-information{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
