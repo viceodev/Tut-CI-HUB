@@ -1,3 +1,3 @@
 <?php
-  system('hostname');
+  echo system('hostname');
 ?>
