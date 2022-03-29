@@ -1,0 +1,6 @@
+1. Initialize git locally with the command  `git init`
+2. To add your files to your local git repository. YOu use the git command `git add <filename>` or `git add .` to add all files.
+3. You commit your code by using the git command `git commit -m "Initial commit from CIHUB projector class"`
+4. GO to your online repository and copy the link
+5. You can add your online repository by using the git command `git remote add origin '<link you copied from github>'`
+6.
