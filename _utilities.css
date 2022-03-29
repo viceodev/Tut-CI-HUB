@@ -1,0 +1,86 @@
+html{
+    --button-red:#ff605c;
+    --button-yellow: #ffc02b;
+    --button-green: #00cb3f;
+    --red: #ff4945;
+    --purple: #9c0579;
+    --orange: #ffa930;
+    --dark-blue: #00778f; 
+}
+
+
+.button-red {
+    background-color: var(--button-red);
+}
+
+.button-yellow {
+    background-color: var(--button-yellow);
+}
+
+.button-green {
+    background-color: var(--button-green);
+}
+
+.red {
+    background-color: var(--red);
+}
+
+.purple {
+    background-color: var(--purple);
+}
+
+.orange {
+    background-color: var(--orange);
+}
+
+.dark-blue {
+    background-color: var(--dark-blue);
+}
+
+.grid-col-span-2{
+    grid-column: span 2;
+}
+
+.grid-col-span-3{
+    grid-column: span 3;
+}
+
+.grid-col-span-4{
+    grid-column: span 4;
+}
+
+.grid-col-span-5{
+    grid-column: span 5;
+}
+
+.grid-col-span-6{
+    grid-column: span 6;
+}
+
+.grid-col-span-7{
+    grid-column: span 7;
+}
+
+.grid-col-span-8{
+    grid-column: span 8;
+}
+
+.grid-col-span-9{
+    grid-column: span 9;
+}
+
+.grid-col-span-10{
+    grid-column: span 10;
+}
+
+.grid-col-span-11{
+    grid-column: span 11;
+}
+
+.grid-col-span-12{
+    grid-column: span 12;
+}
+
+.grid-row-span-2{
+    grid-row: span 2;
+}
