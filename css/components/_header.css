@@ -1,0 +1,23 @@
+header.desktop-header{
+    background-color: var(--light-color);
+    box-shadow: 0px 3px 0px  var(--box-shadow-color);
+}
+
+header.mobile-header{
+    background-color: var(--light-color);
+    box-shadow: 0px 3px 0px  var(--box-shadow-color);
+}
+
+header.mobile-header{
+    display: none;
+}
+
+@media screen and (max-width: 1000px){
+    header.desktop-header{
+        display: none;
+    }
+
+    header.mobile-header{
+        display: block;
+    }
+}

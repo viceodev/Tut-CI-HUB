@@ -1,0 +1,454 @@
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+
+.bg-dark-color{
+    background-color: var(--dark-color);
+}
+
+.bg-light-color{
+    background-color: var(--light-color);
+}
+
+.bg-purple-color{
+    background-color: var(--purple-color);
+}
+
+.bg-purple-light-color{
+    background-color: var(--purple-light-color);
+}
+
+.bg-green-color{
+    background-color: var(--green-color);
+}
+
+.bg-pink-color{
+    background-color: var(--pink-color);
+}
+
+.bg-yellow-color{
+    background-color: var(--yellow-color);
+}
+
+.bg-blue-color{
+    background-color: var(--blue-color);
+}
+
+.bg-tomato-color{
+    background-color: var(--tomato-color);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo span{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+ul.no-list-style{
+    list-style-type: none;
+}
+
+li.primary-bullet-color::before{
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: var(--yellow-color); /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.btn-dark{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    font-weight: bold;
+}
+
+
+.btn-dark-small{
+    display: inline-block;
+    padding: 10px 35px;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    font-weight: bold;
+}
+
+.btn-light{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: var(--light-color);
+    color: var(--purple-color);
+    font-weight: bold;
+}
+
+
+.is-round-5{
+    border-radius: 5px;
+}
+
+.is-round-10{
+    border-radius: 10px;
+}
+
+.is-round-20{
+    border-radius: 20px;
+}
+
+.is-round-50{
+    border-radius: 50px;
+}
+
+
+.p-1{
+    padding: 10px;
+}
+
+.p-2{
+    padding: 20px;
+}
+
+.p-3{
+    padding: 30px;
+}
+
+.p-4{
+    padding: 40px;
+}
+
+.p-5{
+    padding: 50px;
+}
+
+
+.pb-1{
+    padding-bottom: 10px;
+}
+
+.pb-2{
+    padding-bottom: 20px;
+}
+
+.pb-3{
+    padding-bottom: 30px;
+}
+
+.pb-4{
+    padding-bottom: 40px;
+}
+
+.pb-5{
+    padding-bottom: 50px;
+}
+
+.pt-1{
+    padding-top: 10px;
+}
+
+.pt-2{
+    padding-top: 20px;
+}
+
+.pt-3{
+    padding-top: 30px;
+}
+
+.pt-4{
+    padding-top: 40px;
+}
+
+.pt-5{
+    padding-top: 50px;
+}
+
+.pr-1{
+    padding-right: 10px;
+}
+
+.pr-2{
+    padding-right: 20px;
+}
+
+.pr-3{
+    padding-right: 30px;
+}
+
+.pr-4{
+    padding-right: 40px;
+}
+
+.pr-5{
+    padding-right: 50px;
+}
+
+
+.pl-1{
+    padding-left: 10px;
+}
+
+.pl-2{
+    padding-left: 20px;
+}
+
+.pl-3{
+    padding-left: 30px;
+}
+
+.pl-4{
+    padding-left: 40px;
+}
+
+.pl-5{
+    padding-left: 50px;
+}
+
+.m-1{
+    margin: 10px;
+}
+
+.m-2{
+    margin: 20px;
+}
+
+.m-3{
+    margin: 30px;
+}
+
+.m-4{
+    margin: 40px;
+}
+
+.m-5{
+    margin: 50px;
+}
+
+
+.mb-1{
+    margin-bottom: 10px;
+}
+
+.mb-2{
+    margin-bottom: 20px;
+}
+
+.mb-3{
+    margin-bottom: 30px;
+}
+
+.mb-4{
+    margin-bottom: 40px;
+}
+
+.mb-5{
+    margin-bottom: 50px;
+}
+
+.mt-1{
+    margin-top: 10px;
+}
+
+.mt-2{
+    margin-top: 20px;
+}
+
+.mt-3{
+    margin-top: 30px;
+}
+
+.mt-4{
+    margin-top: 40px;
+}
+
+.mt-5{
+    margin-top: 50px;
+}
+
+.mr-1{
+    margin-right: 10px;
+}
+
+.mr-2{
+    margin-right: 20px;
+}
+
+.mr-3{
+    margin-right: 30px;
+}
+
+.mr-4{
+    margin-right: 40px;
+}
+
+.mr-5{
+    margin-right: 50px;
+}
+
+
+.ml-1{
+    margin-left: 10px;
+}
+
+.ml-2{
+    margin-left: 20px;
+}
+
+.ml-3{
+    margin-left: 30px;
+}
+
+.ml-4{
+    margin-left: 40px;
+}
+
+.ml-5{
+    margin-left: 50px;
+}
+
+.width-10{
+    width: 10%;
+}
+
+.width-20{
+    width: 20%;
+}
+
+.width-30{
+    width: 30%;
+}
+
+.width-40{
+    width: 40%;
+}
+
+.width-50{
+    width: 50%;
+}
+
+.width-60{
+    width: 60%;
+}
+
+.width-70{
+    width: 70%;
+}
+
+.width-80{
+    width: 80%;
+}
+
+.width-90{
+    width: 90%;
+}
+
+.width-100{
+    width: 100%;
+}
+
+.flex-between-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.flex-around-center{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-center-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grid-12{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 20px;
+}
+
+.grid-col-span-2{
+    grid-column: span 2;
+}
+
+.grid-col-span-3{
+    grid-column: span 3;
+}
+
+.grid-col-span-4{
+    grid-column: span 4;
+}
+
+.grid-col-span-5{
+    grid-column: span 5;
+}
+
+.grid-col-span-6{
+    grid-column: span 6;
+}
+
+.grid-col-span-7{
+    grid-column: span 7;
+}
+
+.grid-col-span-8{
+    grid-column: span 8;
+}
+
+.grid-col-span-9{
+    grid-column: span 9;
+}
+
+.grid-col-span-10{
+    grid-column: span 10;
+}
+
+.grid-col-span-11{
+    grid-column: span 11;
+}
+
+.grid-col-span-12{
+    grid-column: span 12;
+}
+
+.grid-row-span-2{
+    grid-row: span 2;
+}
+
+.grid-row-span-3{
+    grid-row: span 3;
+}
+
+.grid-row-span-4{
+    grid-row: span 4;
+}
+
+.grid-row-span-5{
+    grid-row: span 5;
+}
+
+.grid-row-span-6{
+    grid-row: span 6;
+}
+
+.grid-row-span-7{
+    grid-row: span 7;
+}
+
+.grid-row-span-8{
+    grid-row: span 8;
+}
+
+.grid-row-span-9{
+    grid-row: span 9;
+}
